@@ -1,0 +1,14 @@
+<html>
+<head></head>
+<body></body>
+<script>console.log(arguments);
+
+function myFunction (a, b) {
+    console.log(a, b);
+    console.log(arguments);
+}
+myFunction("this is a", "this is b");
+// this is a this is b
+// { '0': 'this is a', '1': 'this is b' }
+</script>
+</html>

@@ -1,0 +1,9 @@
+var myVariable = "Global";
+
+function createLocalVariableAndPrintToConsole() {
+	console.log("before local variable is declared: " + myVariable);
+	//var myVariable = "Local"; // when this is commented out, both instances return Global. But when it is not commented out, it returns undefined above and Local below.
+	console.log("after local variable is declared: " + myVariable);
+}
+
+createLocalVariableAndPrintToConsole();
