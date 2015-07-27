@@ -14,4 +14,4 @@ console.log("Array after map: " + arrayAfterMap);
 
 var arrayAfterReduce = arrayAfterMap.reduce(addNumbers);
 
-console.log("Result of reducing the array: " + arrayAfterReduce); 
+console.log("Result of reducing the array: " + arrayAfterReduce);
