@@ -3,6 +3,7 @@ function squareNumber(x) {
 }
 
 function addNumbers(previousValue, currentValue, index, array) {
+    // console.log("previousValue " + previousValue + " currentValue" + currentValue); // for testing only.
     return previousValue + currentValue;
 }
 
