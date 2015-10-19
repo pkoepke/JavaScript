@@ -13,10 +13,15 @@ function createArrayToAdd(numberOfArrayElements, arrayToAdd) {
 arrayToAdd = createArrayToAdd(numberOfArrayElements, arrayToAdd);
 console.log(arrayToAdd);
 
-// define the addition function
-var addTwoElements = function (firstElement, secondElement) {
+// define the addition function. Both methods of naming work.
+/* var addTwoElements = function (firstElement, secondElement) {
+  return firstElement + secondElement;
+} */
+
+function addTwoElements (firstElement, secondElement) {
   return firstElement + secondElement;
 }
+
 
 var sumOfArray = arrayToAdd.reduce(function(a, b) {
   return a + b;
